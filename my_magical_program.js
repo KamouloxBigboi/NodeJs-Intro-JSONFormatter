@@ -15,9 +15,9 @@ function formatJson(input) {
 // if ((help === '--help') && (output = 0)) {
 //     console.log("To format your json file into a pretty-print file, type your json file as first argument, then output as second argument")
 // } else {
-    try { 
-        formatJson(input[0]);
-    } catch (err) {
-        console.log(err);
-    }       
+try { 
+    formatJson(input[0]);
+} catch (err) {
+    console.log(err);
+}       
 //}
